@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Week14:Function</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Eeek:14Function</h1>
+    <h2 id="hContent"></h2>
+    <script>
+        //let year = 2489;
+        let year = prompt("We are generation : คุณอยู๋รุ่นไหน")
+
+        if (year <= 2489) {
+            alert(year + " = you are generation Builders");
+            console.log(year + " You are generation Builders");
+            document.getElementById("hContent").innerHTML = year;
+        } else if (year >= 2490 && year <= 2507) {
+            alert(year + " = you are generation Baby boomers");
+            console.log(year + " You are generation Baby boomers");
+            document.getElementById("hContent").innerHTML = year;
+        } else if (year >= 2508 && year <= 2524) {
+            alert(year + " = you are generation Gen X");
+            console.log(year + " You are generation Gen X");
+            document.getElementById("hContent").innerHTML = year;
+        } else if (year >= 2525 && year <= 2528) {
+            alert(year + " = you are generation Gen Y");
+            console.log(year + " You are generation Gen Y");
+            document.getElementById("hContent").innerHTML = year;
+        } else if (year >= 2539 && year <= 2552) {
+            alert(year + " = you are generation Gen Z");
+            console.log(year + " You are generation Gen Z");
+            document.getElementById("hContent").innerHTML = year;
+        } else if (year >= 2553) {
+            alert(year + " = you are generation Gen Alpha");
+            console.log(year + " You are generation Gen Alpha");
+            document.getElementById("hContent").innerHTML = year;
+        }
+    </script>
+</body>
+
+</html>
